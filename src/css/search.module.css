@@ -1,0 +1,159 @@
+/* styles/search.module.css
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+  }
+  
+  .main_div {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .Search {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .Search:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  .button {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #357ab8;
+  }
+  
+  .user {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .userImage {
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .user p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .user p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+   */
+
+   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .searchContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .searchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .status {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .detail {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .main_card {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
